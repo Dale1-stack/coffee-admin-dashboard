@@ -11,7 +11,7 @@ function WhyUs() {
         <h2>Why Choose Us</h2>
 
         <p>
-          We bring premium coffee experiences
+          We bring top-tier coffee experiences
           directly to coffee lovers across
           Kenya and beyond.
         </p>
