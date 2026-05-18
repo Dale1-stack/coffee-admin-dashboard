@@ -7,7 +7,7 @@ function ProductProvider({ children }) {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3001/coffee")
+    fetch("https://my-api-v4py.onrender.com/coffee")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
