@@ -107,15 +107,26 @@ body {
 
 .search-container {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .search-container input {
-  width: 100%;
-  padding: 1rem;
-  border-radius: 12px;
+  width: 350px;
+  padding: 0.9rem 1.2rem;
+  border-radius: 999px;
   border: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  background: #2b2b2b;
+  color: white;
+  outline: rgba(212,163,115,0.3) ;
+  transition: all 0.3s ease;
 }
+.search-container input:focus {
+  border: 2px solid #d4a373;
+  background: #333;
+}
+
 
 /* PRODUCTS */
 
