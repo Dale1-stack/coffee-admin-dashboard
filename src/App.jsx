@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
@@ -19,9 +20,12 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
+
+        <Footer />
       </ProductProvider>
     </BrowserRouter>
   );
 }
+
 
 export default App;
