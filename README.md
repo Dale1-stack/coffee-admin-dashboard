@@ -1,4 +1,4 @@
-# ☕ Coffee R Us Admin Dashboard
+# ☕ Bean Bliss Admin Dashboard
 
 A modern React-based ecommerce admin dashboard built with Vite, React Router, Context API, and JSON Server.  
 This project showcases advanced React concepts including client-side routing, state management, data fetching, dynamic filtering, responsive UI design, and simulated backend integration.
