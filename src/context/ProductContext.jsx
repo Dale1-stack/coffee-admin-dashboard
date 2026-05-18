@@ -5,6 +5,7 @@ export const ProductContext = createContext();
 function ProductProvider({ children }) {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
+  const [selectedOrigin, setSelectedOrigin] = useState("All");
 
   useEffect(() => {
     fetch("https://my-api-v4py.onrender.com/coffee")
@@ -34,7 +35,9 @@ function ProductProvider({ children }) {
         search,
         setSearch,
         addProduct,
-        updateProduct
+        updateProduct,
+        selectedOrigin,
+        setSelectedOrigin
       }}
     >
       {children}

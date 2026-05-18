@@ -6,7 +6,7 @@ function Hero() {
 
         <p>
           Discover premium beans from around
-          the continent.
+          the African continent.
         </p>
 
         <button>Explore Shop</button>

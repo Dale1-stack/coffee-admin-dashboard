@@ -14,7 +14,7 @@ function Footer() {
 
           <p>
             Premium coffee sourced from
-            around the continent.
+            around Africa.
           </p>
         </div>
 

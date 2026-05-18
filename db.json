@@ -30,17 +30,49 @@
       "name": "Caramel Roast",
       "description": "Smooth caramel finish",
       "origin": "Cameroon",
-      "price": 900,
+      "price": 1500,
       "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348"
     },
     {
       "id": 4,
-      "name": "Espresso",
+      "name": "Eritrean Espresso",
       "description": "Intense and bold flavor",
-      "origin": "DRC",
-      "price": 800,
+      "origin": "Eritrea",
+      "price": 1800,
       "image": "https://images.unsplash.com/photo-1459755486867-b55449bb39ff"
 
-    }
+    },
+    {
+  "id": 5,
+  "name": "Kenya AA",
+  "description": "Bright acidity with berry notes",
+  "origin": "Kenya",
+  "price": 2800,
+  "image": "https://images.unsplash.com/photo-1509785307050-d4066910ec1e"
+},
+{
+  "id": 6,
+  "name": "Arabica Dark",
+  "description": "Chocolate flavored dark roast",
+  "origin": "Ethiopia",
+  "price": 2400,
+  "image": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6"
+},
+{
+  "id": 7,
+  "name": "Hazelnut ",
+  "description": "Smooth hazelnut aroma",
+  "origin": "Rwanda",
+  "price": 2100,
+  "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+},
+{
+  "id": 8,
+  "name": "Sunrise Roast",
+  "description": "Light roast with citrus finish",
+  "origin": "Burundi",
+  "price": 2600,
+  "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0"
+}
   ]
 }
