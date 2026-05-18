@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 function Hero() {
+  const navigate = useNavigate();
+
+  function handleShopRedirect() {
+    navigate("/shop");
+  }
+
   return (
     <section className="hero">
       <div className="hero-overlay">
@@ -9,7 +17,9 @@ function Hero() {
           the African continent.
         </p>
 
-        <button>Explore Shop</button>
+        <button onClick={handleShopRedirect}>
+          Explore Shop
+        </button>
       </div>
     </section>
   );
